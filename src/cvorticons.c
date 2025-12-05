@@ -3484,7 +3484,7 @@ right_after_drawing_sync:
                     }
 #endif
 #ifndef CHOCOLATE_KEEN_CONFIG_SPECIFIC_EPISODE
-                    else
+                } else {
 #endif
 #if CHOCOLATE_KEEN_IS_EPISODE3_ENABLED
                       if (engine_gameVersion == GAMEVER_KEEN3) {
